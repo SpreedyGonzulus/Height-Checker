@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+input {
+    display: block;
+    width: 90%;
+
+    margin-bottom: 10px;
+    margin-left:5px;
+}
+
+
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+p{
+    text-align:center;
+}
+
